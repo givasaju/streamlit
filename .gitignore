@@ -1,0 +1,102 @@
+# Created by Gemini Code Assist
+
+### General ###
+# Temporary files, backups, and OS-generated files
+*.tmp
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+### Logs and Databases ###
+*.log
+logs/
+*.sql
+*.sqlite
+
+### Build output & Compiled Files ###
+build/
+dist/
+out/
+target/
+bin/
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+### Dependency Directories ###
+node_modules/
+vendor/
+bower_components/
+jspm_packages/
+
+### Environment Variables ###
+# Ignore all .env files, but keep the example file for collaborators
+.env*
+!.env.example
+!.env.test
+
+### IDE & Editor Configuration ###
+.idea/
+# Keep team-shared settings but ignore user-specific settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.user
+.project
+.classpath
+.settings/
+
+### Test & Coverage Reports ###
+coverage/
+.nyc_output/
+junit.xml
+.tox/
+
+### Python Specific ###
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+### Sass ###
+.sass-cache/
+*.css.map
+
+### Other ###
+# Compressed files that are not part of the project assets
+*.zip
+*.tar.gz
+*.rar
